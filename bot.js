@@ -17,5 +17,8 @@ client.on('message', message => {
   	}
 });
 
+cilent.on('message', message => {
+    if (message.content === 'ping'
+        message.reply('BONG'
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
